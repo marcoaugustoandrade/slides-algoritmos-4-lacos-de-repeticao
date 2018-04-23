@@ -45,9 +45,9 @@
 				<section class="left">
 					<h2>Sumário</h2>
 					<ul>
-						<li>Enquanto</li>
-						<li>Faça-enquanto</li>
-						<li>Para</li>
+						<li class="fragment fade-up"><b><u>Enquanto</u></b>: repetição com teste no início</li>
+						<li class="fragment fade-up"><b><u>Faça-enquanto</u></b>: repetição com teste no fim</li>
+						<li class="fragment fade-up"><b><u>Para</u></b>: repetição com variável de controle</li>
 					</ul>
 				</section>
 				<section>
@@ -69,14 +69,15 @@
 		contador = contador--
 	}
 					</code></pre>
-					<div class="alert-blue fragment fade-up">Enquanto o <b>contador</b> for for maior do que <b>0</b> repita</div>
+					<div class="alert-blue fragment fade-up">Enquanto o <u><b>contador</b></u> for maior do que <u><b>0</b></u> repita</div>
 					<div class="alert-yellow fragment fade-up">Observe que o contador foi <u><b>decrementado</b></u> em cada laço executado!</div>
 				</section>
 				<section data-markdown>
 					<textarea data-template>
 					## Exercícios
-					* Leia 5 números fornecidos pelo usuário, calcular a média e imprimir.
-					* 
+					* Leia 5 números fornecidos pelo usuário, calcule a média e imprima.
+					* Leia números, fornecidos pelo usuário, enquanto sejam números ímpares. <!-- .element: class="fragment" data-fragment-index="1" -->
+					* Ler um número inteiro n. Escrever a soma de todos os números de 1 até n. <!-- .element: class="fragment" data-fragment-index="2" -->
 					</textarea>
 				</section>
 				<section>
@@ -86,32 +87,41 @@
 		// Faça alguma coisa!
 	} enquanto (condicao)
 					</code></pre>
-					<div class="alert-blue fragment fade-up">Faça alguma coisa enquanto uma condição for verdadeira repita.</div>
-					<div class="alert-yellow fragment fade-up">Observe que pelo menos uma vez o laço será executado.</div>
+					<div class="alert-blue fragment fade-up">Enquanto uma condição for verdadeira repita, executando pelo menos uma vez.</div>
+					<div class="alert-yellow fragment fade-up">Observe que pelo menos uma vez o laço será executado, ao contrário do laço <u>enquanto</u>.</div>
 				</section>
 				<section>
 					<h2>Faça-Enquanto</h2>
 					<pre><code class="hlsj portugol" data-trim contenteditable>
-
+	inteiro numero
+	faca {
+		leia(numero)
+	} enquanto (numero > 0)
 					</code></pre>
 				</section>
 				<section data-markdown>
 					<textarea data-template>
 					## Exercícios
-					*
-					*
+					* Leia números, fornecidos pelo usuário, enquanto sejam números negativos.
+					* Escreva um programa que apresente quatro opções: (a) consulta saldo, (b) saque e (c) depósito e (d) sair. O saldo deve iniciar em R$ 0,00.
+					A cada saque ou depósito o valor do saldo deve ser atualizado. <!-- .element: class="fragment" data-fragment-index="1" -->
+					* Leia números, fornecidos pelo usuário, enquanto sejam números positivos e pares. <!-- .element: class="fragment" data-fragment-index="2" -->
 					</textarea>
 				</section>
 				<section>
 					<h2>Para</h2>
 					<pre><code class="hlsj portugol" data-trim contenteditable>
-
+	para(){
+		// Faça alguma coisa!
+	}
 					</code></pre>
 				</section>
 				<section>
 					<h2>Para</h2>
 					<pre><code class="hlsj portugol" data-trim contenteditable>
-
+	para(){
+		
+	}
 					</code></pre>
 				</section>
 				<section data-markdown>
